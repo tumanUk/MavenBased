@@ -7,6 +7,6 @@ public class SimpleTest {
 
     @Test
     public void sumTest() {
-        Assert.assertTrue("Test failed ", true);
+        Assert.assertTrue("Test failed, moded in github ", true);
     }
 }
