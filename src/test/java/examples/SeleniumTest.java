@@ -1,9 +1,7 @@
 package examples;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.InvalidArgumentException;
 import org.openqa.selenium.WebDriver;
@@ -17,10 +15,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class SeleniumTest {
-    private static WebDriver driver;
+    private  WebDriver driver;
 
-    @BeforeAll
-    public static void setUp() {
+    @BeforeEach
+    public void setUp() {
         String browser = PropertyReader.BROWSER;
         switch (browser) {
             case ("chrome"): {
@@ -55,15 +53,15 @@ public class SeleniumTest {
     }
 
     @Test
-    public void authorizeTest() throws InterruptedException {
+    public void authorizeTest() {
         AuthorizationPage authorizationPage = AuthorizationPage.navigateHere(driver);
         authorizationPage.doAuthorize();
         WebElement navigationSpan = driver.findElement(By.xpath("//span[@class='navigation_page']"));
         assertEquals(navigationSpan.getText(),"My account");
     }
 
-    @AfterAll
-    public static void tearDown() {
+    @AfterEach
+    public void tearDown() {
         driver.close();
     }
 }
