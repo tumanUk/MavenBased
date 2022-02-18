@@ -6,8 +6,11 @@ import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.InvalidArgumentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import utils.PropertyReader;
+
+import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
 
@@ -15,11 +18,17 @@ public class BaseTest {
 
     @BeforeEach
     public void initDriver() {
-        String browser = PropertyReader.BROWSER;
+        String browser = PropertyReader.BROWSER.toLowerCase();
         switch (browser) {
             case ("chrome"): {
                 WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
+
+                ChromeOptions chromeOptions = new ChromeOptions();
+                chromeOptions.addArguments("start-maximized");
+                chromeOptions.addArguments("version");
+
+                driver = new ChromeDriver(chromeOptions);
+                driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
                 break;
             }
             case ("firefox"): {

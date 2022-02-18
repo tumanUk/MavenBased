@@ -12,11 +12,12 @@ public class AuthorizationTest extends BaseTest {
     @Test
     public void authorizeTest() {
         driver.get(PropertyReader.BASEURL);
-        HomePage homePage = new HomePage(driver).checkOnPage();
+        HomePage homePage = new HomePage(driver).waitOnPage();
         AuthorizationPage authorizationPage = homePage.clickSignIn();
         authorizationPage.checkOnPage();
         MyAccountPage myAccountPage = authorizationPage.doAuthorize("skillupdemo@gmail.com", "12345");
         String account = myAccountPage.getAuthorizedAccount();
         Assertions.assertEquals("name lasr", account);
     }
+
 }

@@ -3,7 +3,12 @@ package pages;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.PropertyReader;
+
+import java.time.Duration;
+import java.util.NoSuchElementException;
 
 public class HomePage {
     private final WebDriver driver;
@@ -30,4 +35,16 @@ public class HomePage {
                 " current page is: " + driver.getCurrentUrl());
         return this;
     }
+
+    public HomePage waitOnPage() {
+        WebDriverWait wait = new WebDriverWait(driver, 20);
+        wait.pollingEvery(Duration.ofSeconds(3));
+        wait.withTimeout(Duration.ofSeconds(30));
+        wait.ignoring(NoSuchElementException.class);
+
+        wait.until(ExpectedConditions.elementToBeClickable(signInButton));
+        return this;
+    }
+
+
 }
