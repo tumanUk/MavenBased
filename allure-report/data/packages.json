@@ -1,0 +1,148 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "automationpractice",
+    "children" : [ {
+      "name" : "AuthorizationTest",
+      "children" : [ {
+        "name" : "authorizeTest",
+        "uid" : "4f2e4b4574e206b4",
+        "parentUid" : "32a424b437dc756da5e86907556095e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650041766153,
+          "stop" : 1650041777954,
+          "duration" : 11801
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "32a424b437dc756da5e86907556095e9"
+    }, {
+      "name" : "CreateNewUserTest",
+      "children" : [ {
+        "name" : "creatingUser",
+        "uid" : "ef10923ba8cf955a",
+        "parentUid" : "3e02a4d2251604f2b5901fe75a0bf67e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650041778939,
+          "stop" : 1650041793349,
+          "duration" : 14410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3e02a4d2251604f2b5901fe75a0bf67e"
+    } ],
+    "uid" : "d8c605a2922f0817e0ceff90e8e487bb"
+  }, {
+    "name" : "examples",
+    "children" : [ {
+      "name" : "ReadResourcesTest",
+      "children" : [ {
+        "name" : "readTextFromResourcesTest",
+        "uid" : "42359c2faf5d8d4e",
+        "parentUid" : "6623d7f6625de21c6b9705484860941f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650041793355,
+          "stop" : 1650041793371,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "simplifiedResourceRead",
+        "uid" : "3baa5d351b72a4fb",
+        "parentUid" : "6623d7f6625de21c6b9705484860941f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650041793371,
+          "stop" : 1650041793387,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "readPropertiesfromResourcesTest",
+        "uid" : "b3ac6ccb2d85f3ee",
+        "parentUid" : "6623d7f6625de21c6b9705484860941f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650041793371,
+          "stop" : 1650041793371,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6623d7f6625de21c6b9705484860941f"
+    }, {
+      "name" : "SeleniumTest",
+      "children" : [ {
+        "name" : "initDriverTest",
+        "uid" : "d03b5d32e8b3c8f4",
+        "parentUid" : "0de3c5d0ef5be80e0e03db05a4a0e4d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650041793387,
+          "stop" : 1650041795783,
+          "duration" : 2396
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "useDriverManager",
+        "uid" : "30da3b86830e09f1",
+        "parentUid" : "0de3c5d0ef5be80e0e03db05a4a0e4d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650041795783,
+          "stop" : 1650041805835,
+          "duration" : 10052
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0de3c5d0ef5be80e0e03db05a4a0e4d2"
+    } ],
+    "uid" : "7e7e1562ac041a0e48973eba44acbd94"
+  } ]
+}

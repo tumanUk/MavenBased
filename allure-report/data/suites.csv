@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Apr 15 18:56:35 CEST 2022","Fri Apr 15 18:56:45 CEST 2022","10052","","examples.SeleniumTest","","examples.SeleniumTest","useDriverManager","useDriverManager()",""
+"passed","Fri Apr 15 18:56:18 CEST 2022","Fri Apr 15 18:56:33 CEST 2022","14410","","automationpractice.CreateNewUserTest","","automationpractice.CreateNewUserTest","creatingUser","creatingUser()",""
+"passed","Fri Apr 15 18:56:33 CEST 2022","Fri Apr 15 18:56:35 CEST 2022","2396","","examples.SeleniumTest","","examples.SeleniumTest","initDriverTest","initDriverTest()",""
+"passed","Fri Apr 15 18:56:33 CEST 2022","Fri Apr 15 18:56:33 CEST 2022","16","","examples.ReadResourcesTest","","examples.ReadResourcesTest","readTextFromResourcesTest","readTextFromResourcesTest()",""
+"passed","Fri Apr 15 18:56:33 CEST 2022","Fri Apr 15 18:56:33 CEST 2022","16","","examples.ReadResourcesTest","","examples.ReadResourcesTest","simplifiedResourceRead","simplifiedResourceRead()",""
+"passed","Fri Apr 15 18:56:06 CEST 2022","Fri Apr 15 18:56:17 CEST 2022","11801","","automationpractice.AuthorizationTest","","automationpractice.AuthorizationTest","authorizeTest","authorizeTest()",""
+"passed","Fri Apr 15 18:56:33 CEST 2022","Fri Apr 15 18:56:33 CEST 2022","0","","examples.ReadResourcesTest","","examples.ReadResourcesTest","readPropertiesfromResourcesTest","readPropertiesfromResourcesTest()",""

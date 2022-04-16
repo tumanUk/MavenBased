@@ -1,0 +1,64 @@
+{
+  "uid" : "ef10923ba8cf955a",
+  "name" : "creatingUser()",
+  "fullName" : "automationpractice.CreateNewUserTest.creatingUser",
+  "historyId" : "b2b22ae5f55661b882c354fe2ddf02c0",
+  "time" : {
+    "start" : 1650041778939,
+    "stop" : 1650041793349,
+    "duration" : 14410
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:automationpractice.CreateNewUserTest]/[method:creatingUser()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4K1ACNI"
+  }, {
+    "name" : "thread",
+    "value" : "7416@DESKTOP-4K1ACNI.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "automationpractice.CreateNewUserTest"
+  }, {
+    "name" : "testClass",
+    "value" : "automationpractice.CreateNewUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "creatingUser"
+  }, {
+    "name" : "suite",
+    "value" : "automationpractice.CreateNewUserTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef10923ba8cf955a.json",
+  "parameterValues" : [ ]
+}

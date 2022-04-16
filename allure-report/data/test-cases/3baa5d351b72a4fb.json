@@ -1,0 +1,64 @@
+{
+  "uid" : "3baa5d351b72a4fb",
+  "name" : "simplifiedResourceRead()",
+  "fullName" : "examples.ReadResourcesTest.simplifiedResourceRead",
+  "historyId" : "d5c7de26e00f2d666e388674797268f3",
+  "time" : {
+    "start" : 1650041793371,
+    "stop" : 1650041793387,
+    "duration" : 16
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:examples.ReadResourcesTest]/[method:simplifiedResourceRead()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4K1ACNI"
+  }, {
+    "name" : "thread",
+    "value" : "7416@DESKTOP-4K1ACNI.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "examples.ReadResourcesTest"
+  }, {
+    "name" : "testClass",
+    "value" : "examples.ReadResourcesTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "simplifiedResourceRead"
+  }, {
+    "name" : "suite",
+    "value" : "examples.ReadResourcesTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3baa5d351b72a4fb.json",
+  "parameterValues" : [ ]
+}

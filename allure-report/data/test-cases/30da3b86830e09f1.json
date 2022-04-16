@@ -1,0 +1,64 @@
+{
+  "uid" : "30da3b86830e09f1",
+  "name" : "useDriverManager()",
+  "fullName" : "examples.SeleniumTest.useDriverManager",
+  "historyId" : "5847d262bfe6411fd628092f806167f0",
+  "time" : {
+    "start" : 1650041795783,
+    "stop" : 1650041805835,
+    "duration" : 10052
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:examples.SeleniumTest]/[method:useDriverManager()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4K1ACNI"
+  }, {
+    "name" : "thread",
+    "value" : "7416@DESKTOP-4K1ACNI.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "examples.SeleniumTest"
+  }, {
+    "name" : "testClass",
+    "value" : "examples.SeleniumTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "useDriverManager"
+  }, {
+    "name" : "suite",
+    "value" : "examples.SeleniumTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "30da3b86830e09f1.json",
+  "parameterValues" : [ ]
+}

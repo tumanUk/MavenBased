@@ -1,0 +1,64 @@
+{
+  "uid" : "4f2e4b4574e206b4",
+  "name" : "authorizeTest()",
+  "fullName" : "automationpractice.AuthorizationTest.authorizeTest",
+  "historyId" : "63653fdcaf018abb434741603df51ac3",
+  "time" : {
+    "start" : 1650041766153,
+    "stop" : 1650041777954,
+    "duration" : 11801
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:automationpractice.AuthorizationTest]/[method:authorizeTest()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4K1ACNI"
+  }, {
+    "name" : "thread",
+    "value" : "7416@DESKTOP-4K1ACNI.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "automationpractice.AuthorizationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "automationpractice.AuthorizationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "authorizeTest"
+  }, {
+    "name" : "suite",
+    "value" : "automationpractice.AuthorizationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f2e4b4574e206b4.json",
+  "parameterValues" : [ ]
+}
