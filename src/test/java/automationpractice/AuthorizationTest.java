@@ -19,6 +19,8 @@ import java.nio.file.Files;
 
 public class AuthorizationTest extends BaseTest {
 
+    Logger log = LoggerFactory.getLogger(AuthorizationTest.class);
+
     @AfterEach
     public void allureAttachScreenshot() {
         File screenShot = WebDriverUtils.getScreenshot(driver);
@@ -32,6 +34,10 @@ public class AuthorizationTest extends BaseTest {
     @Test
     @Description("In this test we will check User authorization")
     public void authorizeTest() {
+        log.info("start Authorize Test");
+        log.warn("log warning");
+        log.error("log Error");
+        log.debug("start debug");
         driver.get(PropertyReader.BASEURL);
         HomePage homePage = new HomePage(driver).waitOnPage();
         AuthorizationPage authorizationPage = homePage.clickSignIn();
