@@ -7,11 +7,11 @@ import java.util.Properties;
 public final class PropertyReader {
     private static final String CONFIG_PATH = "config.properties";
     private static final Properties prop = initProperties();
-
     public static final String BROWSER = prop.getProperty("browser");
     public static final String BASEURL = prop.getProperty("baseUrl");
 
     private PropertyReader() {
+
     }
 
     public static Properties getProperties() {
@@ -22,7 +22,6 @@ public final class PropertyReader {
         Properties prop = new Properties();
 
         InputStream inputStream = ClassLoader.getSystemResourceAsStream(CONFIG_PATH);
-
         try {
             prop.load(inputStream);
         } catch (IOException e) {
@@ -30,5 +29,4 @@ public final class PropertyReader {
         }
         return prop;
     }
-
 }

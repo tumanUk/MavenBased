@@ -1,4 +1,4 @@
-package automationpractice;
+package tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
@@ -6,29 +6,19 @@ import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.InvalidArgumentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import utils.PropertyReader;
 
-import java.util.concurrent.TimeUnit;
-
-public class BaseTest {
-
-    protected WebDriver driver;
+public class WebDriverFactory {
+    protected  WebDriver driver;
 
     @BeforeEach
-    public void initDriver() {
-        String browser = PropertyReader.BROWSER.toLowerCase();
-        switch (browser) {
+    public  void createInstance(){
+        String browserName = PropertyReader.BROWSER.toLowerCase();
+        switch (browserName) {
             case ("chrome"): {
                 WebDriverManager.chromedriver().setup();
-
-                ChromeOptions chromeOptions = new ChromeOptions();
-                chromeOptions.addArguments("start-maximized");
-                chromeOptions.addArguments("version");
-
-                driver = new ChromeDriver(chromeOptions);
-                driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+                driver = new ChromeDriver();
                 break;
             }
             case ("firefox"): {
@@ -42,8 +32,7 @@ public class BaseTest {
     }
 
     @AfterEach
-    public void quitDriver() {
+    public void tearDown(){
         driver.quit();
     }
-
 }
