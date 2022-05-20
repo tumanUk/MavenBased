@@ -20,6 +20,7 @@ public class AddToCartTest extends WebDriverFactory {
         driver.manage().deleteAllCookies();
         JSONObject jsonCookies = JSONUtils.getFileContentsAsJsonObject("src/test/java/tests/resorces/Cookies.json");
 
+
         Cookie cookie = new Cookie(
                 jsonCookies.getString("name"),
                 jsonCookies.getString("value")
