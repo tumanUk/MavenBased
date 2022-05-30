@@ -12,14 +12,15 @@ import java.io.IOException;
 import org.openqa.selenium.Cookie;
 
 public class AddToCartTest extends WebDriverFactory {
-    private final String TOTAL_AMOUNT = "$47.38";
+    private final String TOTAL_AMOUNT = "$477.38";
+//    private final String TOTAL_AMOUNT = "$477.38";
 
     @Test
     public void addToCartWithCookies() throws IOException {
         driver.get(PropertyReader.BASEURL);
+
         driver.manage().deleteAllCookies();
         JSONObject jsonCookies = JSONUtils.getFileContentsAsJsonObject("src/test/java/tests/resorces/Cookies.json");
-
 
         Cookie cookie = new Cookie(
                 jsonCookies.getString("name"),
